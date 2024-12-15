@@ -81,6 +81,7 @@ h1,h2,h3,h4,h5,p{
     font-weight: 400 !important;
     line-height: 24px !important;
     text-align: left !important;
+    color: #202020CC !important;
 }
 .navbar{
     height: 100px;
@@ -91,7 +92,9 @@ h1,h2,h3,h4,h5,p{
     align-items: center;
     gap: 20px;
 }
-
+.nav-link.active{
+    color: #202020CC !important;
+}
 .navbar-toggler:focus {
     box-shadow: none;
 }
