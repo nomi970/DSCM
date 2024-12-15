@@ -129,7 +129,7 @@ h1,h2,h3,h4,h5,p{
      right: -140px;
 }
 .hero_main{
-    padding: 50px 0px;
+    padding: 50px;
 }
 .choose_card{
     box-shadow: 0px 0px 40px 0px #0000000F;
@@ -310,11 +310,11 @@ h1,h2,h3,h4,h5,p{
         display: unset;
     }
     .gp_30{
-        gap: 110px;
+        gap: 120px;
     }
     .hero_info_bx::after {
 
-        top: 176px;
+        top: 200px;
         right: 65px;
         transform: rotate(105deg);
         width: 100px;
@@ -322,6 +322,7 @@ h1,h2,h3,h4,h5,p{
     }
     .hero_info_bx{
         flex-wrap: wrap;
+        margin-top: 20px;
     }
     .navbar-nav{
         background-color: white;
@@ -360,7 +361,7 @@ h1,h2,h3,h4,h5,p{
         height: 60px;
     }
     .hero_main {
-        padding: 30px 0px;
+        padding: 20px;
     }
     .font_36 {
         font-size: 24px;
